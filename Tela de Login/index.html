@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tela de login</title>
+    <link rel="stylesheet" href="style.css">
+    <title>tela de login responsiva</title>
+    
 </head>
 <body>
-    <h1 class="titulo">Create a account</h1>
+   <main>
 
-    <form action=""><p> nome:   <input type="text" name="nome"></p>
-    <form action=""><p>E-mail  <input type="text" name="e-mail"></p>
-    <form action=""><p>Digite seu bairro:  <input type="text" >
+    <h1>Faça seu login</h1>
+    <div class="sociais">
+    <a href="https://www.google.com.br">
+        <img src="assets/google.png" alt="google">
+    </a>
+    <a href="https://pt-br.facebook.com/">
+        <img src="assets/facebook.png"alt="facebook">
+    </a>
+    <a href="https://www.linkedin.com/">
+        <img src="assets/linkedin.png" alt="linkedin">
+
+    </a>
+    </div>
+
+    <div class="alternative">
+        <span>OU</span>
+    </div>
+
+    <form action="">
+        <label for="name">
+            <span>Nome</span>
+            <input type="text" id="name" name="name">
+        </label>
+        <label for="email">
+            <span>email</span>
+            <input type="email" id="email" name="email">
+        </label>
+        <label for="password">
+            <span>senha</span>
+            <input type="password" id="password" name="password">
+        </label>
+        <input type="submit" value="login">
+    </form>
+   </main>
+
+    <section class="imagem">
+        <!-- imagem lateral da pagina -->
+        <img src="assets/mobile.svg" alt="imagem login">
+        <div class="circle"></div>
+    </section>
 </body>
 </html>
